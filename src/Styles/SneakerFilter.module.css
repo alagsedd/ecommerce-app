@@ -1,0 +1,17 @@
+.label {
+    margin-left: 0.7rem;
+    margin-right: 0.3rem;
+    font-weight: 600;
+    letter-spacing: 0.01rem;
+}
+.select {
+    color: #373535;
+    border-radius: 5px;
+    width: 60%;
+    font-weight: 600;
+    padding-left: 0.4rem;
+}
+.select option {
+    background-color: #384266;
+    font-weight: 600;
+}
