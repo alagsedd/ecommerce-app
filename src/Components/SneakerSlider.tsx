@@ -25,13 +25,12 @@ const SneakerSlider = () => {
 
   return (
     <>
-      <h1 className="d-flex justify-content-center">Alags Sneakers</h1>
+      <h1 className={styles.heading}>Alags Sneakers</h1>
       <p>
-        Welcome to Alags Sneakers, your one-stop destination for the latest and
-        greatest in footwear. Explore our collection of stylish and comfortable
-        kicks that let you express your unique style with every step. Whether
-        you're a sneaker enthusiast or just looking to upgrade your shoe game,
-        Alags Sneakers has you covered. Step into style.
+        Welcome to Alags Sneakers, your top destination for the latest stylish
+        and comfortable kicks. Express your unique style with every step.
+        Whether you're a sneaker enthusiast or looking to upgrade your shoe
+        collection, Alags Sneakers has you covered. Step into style{" "}
       </p>
       <Swiper
         modules={[Navigation, Pagination, Scrollbar, A11y]}
@@ -49,6 +48,7 @@ const SneakerSlider = () => {
           </SwiperSlide>
         ))}
       </Swiper>
+      <h2 className={styles.headingTwo}>Take a peek at our collections</h2>
     </>
   );
 };

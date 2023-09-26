@@ -1,20 +1,12 @@
 import styles from "../../src/Styles/SneakerCard.module.css";
-import ExpandableText from "../Components/ExpandableText";
 
 interface Props {
   category: string;
   gravityScore: number;
-  description: string;
   price: number;
   image: string;
 }
-const SneakerCard = ({
-  image,
-  category,
-  gravityScore,
-  description,
-  price,
-}: Props) => {
+const SneakerCard = ({ image, category, gravityScore, price }: Props) => {
   return (
     <article className={styles.article}>
       <img
@@ -24,19 +16,17 @@ const SneakerCard = ({
       />
       <span className={styles.cat}>
         {" "}
-        <span className={styles.design}>Category</span>: {"  "}
+        <span className={styles.design}>Category</span> : {"  "}
         {category}
       </span>
       <span className={styles.gravityScore}>
-        <span className={styles.design}>Gravity Score</span>: {"  "}
+        <span className={styles.design}>Gravity Score</span> : {"  "}
         {gravityScore}
       </span>
       <span className={styles.price}>
         {" "}
-        <span className={styles.design}>Price</span>: {"  "}
-        {price}
+        <span className={styles.design}>Price</span> : ${price}
       </span>
-      <ExpandableText desc={description} />
     </article>
   );
 };

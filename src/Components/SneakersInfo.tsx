@@ -5,7 +5,6 @@ interface Sneaker {
   id: number;
   category: string;
   gravityScore: number;
-  description: string;
   price: number;
   image: string;
 }
@@ -22,7 +21,6 @@ const SneakersInfo = ({ sneakers }: Props) => {
           image={sneaker.image}
           gravityScore={sneaker.gravityScore}
           category={sneaker.category}
-          description={sneaker.description}
         />
       ))}
     </main>

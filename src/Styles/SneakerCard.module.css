@@ -1,7 +1,6 @@
 .article {
-    width: 47%;
-    border-radius: 10px;
-    background-color: #36436a;
+    border-radius: 0;
+    background-color: #347393;
     margin: 0.5rem;
     margin-top: 1rem;
     margin-bottom: 0.4rem;
@@ -9,9 +8,10 @@
 }
 .image {
     width: 100%;
-    height: 13rem;
+    height: 15rem;
     object-fit: cover;
 }
+
 .cat {
     display: block;
 }
@@ -19,7 +19,8 @@
     display: block;
 }
 .design {
-    color: rgb(0, 255, 166);
+    margin-left: 0.3rem;
+    color: rgb(0, 255, 89);
     font-size: 1.1rem;
     font-weight: 600;
 }

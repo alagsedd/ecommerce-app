@@ -5,7 +5,7 @@ interface Props {
 }
 const SneakersFilter = ({ onSelectCategory }: Props) => {
   return (
-    <section className="mt-1">
+    <section className="mt-3">
       {" "}
       <label htmlFor="filter" className={styles.label}>
         Filter by:
